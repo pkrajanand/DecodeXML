@@ -2,7 +2,14 @@ use strict;
 use XML::Entities;
 # use warnings
 
-my $file = 'encoded.xml';
+my $num_args = $#ARGV + 1;
+if ($num_args != 1) {
+    print "\nUsage: decode_xml.pl file_name\n";
+    exit;
+}
+
+my $file = $ARGV[0];
+
 open(my $fh, "<", $file) or die "Unable to open < encoded.xml: $!";
 
 my @lines;
