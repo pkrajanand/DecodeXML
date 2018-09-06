@@ -1,4 +1,8 @@
+#!/usr/bin/perl -w
 use strict;
+# add your lib dir to @INC
+use lib './lib/';
+
 use XML::Entities;
 # use warnings
 
