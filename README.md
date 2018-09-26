@@ -1,5 +1,5 @@
 # DecodeXml
-A perl script utility to decode an encoded xml files. It does not have 64K limitation that the JVM based utilities(eg: Apache's stringescapeutils.unescapexml api, nodejs, groovy, etc.) have. 
+A perl script utility to decode an encoded xml files. It does not have 64K limitation that the JVM based utilities(eg: Apache's stringescapeutils.unescapexml api, groovy, etc.) have. 
 
 # System Requirements
 1. Perl
